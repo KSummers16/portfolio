@@ -1,0 +1,20 @@
+.title {
+  border: 1px black solid;
+  margin: 15px;
+}
+
+.name {
+  font-size: xxx-large;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.words {
+  width: 45%;
+}
