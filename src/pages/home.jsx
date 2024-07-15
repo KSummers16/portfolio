@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./home.css"
 
 export const Home = () => {
@@ -47,6 +48,10 @@ export const Home = () => {
             communication and collaboration skills necessary for thriving in a
             distributed team environment.
           </p>
+          <Link to="projects">
+            <button>Projects</button>
+          </Link>
+          <button>Resume</button>
         </div>
       </section>
     </>
