@@ -1,4 +1,14 @@
+.project-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 .project-photo {
   width: 50%;
   height: auto;
+}
+
+.project-details {
+  width: 50%;
 }
