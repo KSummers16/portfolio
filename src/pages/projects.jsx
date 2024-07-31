@@ -140,6 +140,54 @@ export const Projects = () => {
           </p>
         </div>
       </div>
+      <h3>Kneel Diamonds</h3>
+      <div className="project-info">
+        <div className="project-photo">
+          <img
+            src="https://res.cloudinary.com/yarn-stash/image/upload/v1722440756/2AB126B5-A8A2-4BCF-ADCD-C6C84BA07652_lsinla.jpg"
+            alt="kneel-home"
+          />
+        </div>
+        <div className="project-detail">
+          <p>
+            Kneel Diamonds was a two part project. Part one we learned React,
+            how to do fetch calls and use array methods. In Part two we
+            recreated the database using sql and python and then used them to
+            build new orders, cancel orders, update prices, and embedding
+            tables.
+          </p>
+          <p>
+            GitHub Repo:{" "}
+            <Link to="https://github.com/KSummers16/kneel_diamond">
+              Application{" "}
+            </Link>
+            <Link to="https://github.com/KSummers16/kneel-server/blob/main/json-server.py">
+              Server
+            </Link>
+          </p>
+        </div>
+      </div>
+      <h3>My Portfolio</h3>
+      <div className="project-info">
+        <div className="project-photo">
+          <div className="project-detail">
+            <p>
+              Creating this application for my portfolio was an insightful
+              experience. To obtain screenshots of my previous projects (all
+              except Hook'd by Kim), I first needed to debug and resolve any
+              issues preventing them from running. Revisiting and relearning
+              these older projects was both challenging and rewarding, as it
+              allowed me to apply and reinforce my skills once again.
+            </p>
+            <p>
+              GitHub Repo:{" "}
+              <Link to="https://github.com/KSummers16/kneel_diamond">
+                Application{" "}
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
