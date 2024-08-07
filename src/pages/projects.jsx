@@ -181,7 +181,7 @@ export const Projects = () => {
             </p>
             <p>
               GitHub Repo:{" "}
-              <Link to="https://github.com/KSummers16/kneel_diamond">
+              <Link to="https://github.com/KSummers16/portfolio">
                 Application{" "}
               </Link>
             </p>
