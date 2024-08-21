@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+h2,
+h3,
+h4 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: #444;
+}
+
+p,
+li {
+  margin-bottom: 10px;
+}
+
+/* Section Styles */
+section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills ul li {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Experience Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experience-list {
+  list-style-type: square;
+  list-style-type: none;
+}
+
+/* Education Section */
+.education {
+  margin-top: 30px;
+}
+
+.education h4 {
+  margin-top: 10px;
+}
+
+.education-details div {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* Additional Styles */
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Hover Effects */
+.skills ul li:hover {
+  background-color: #d4d4d4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  section {
+    padding: 15px;
+  }
+
+  .skills ul {
+    flex-direction: column;
+  }
+
+  .skills ul li {
+    margin: 8px 0;
+  }
+}

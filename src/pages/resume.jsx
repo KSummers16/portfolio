@@ -1,7 +1,9 @@
+import "./resume.css"
+
 export const Resume = () => {
   return (
     <>
-      <h2>Resume</h2>
+      <h1>Resume</h1>
       <section className="skills">
         <div>
           <ul>
@@ -25,14 +27,14 @@ export const Resume = () => {
         </div>
       </section>
       <section>
-        <h3>Technical Experience</h3>
+        <h2>Technical Experience</h2>
         <h4>Nashville Software School Sept 2023 - May 2024</h4>
         <p>
           NSS is a six-month intensive, full-time software development bootcamp
           focusing on HTML, CSS, JavaScript, React and server-side fundamentals
           with Python and Django
         </p>
-        <ul className="NSS-list">
+        <ul className="experience-list">
           <li>
             Single-page application development with React and with a focus on
             modern ES6+ Javascript features and modular code
@@ -59,15 +61,15 @@ export const Resume = () => {
         </ul>
       </section>
       <section>
-        <h3>Professional Experience</h3>
-        <h4>Verizon Wireless: Cell Phone Provider</h4>
+        <h2>Professional Experience</h2>
+        <h4>Verizon Wireless: Cell Phone Provider 2009-2023</h4>
         <p>
           In-store Customer Service Representative (2009-2010), In-store Sales
           Representative (2010-2014), Retail Support Specialist (2014-2017),
           Call Center Customer Service Representative (2017-2021), Porting &
           Activation Team (2021-2023).
         </p>
-        <ul>
+        <ul className="experience-list">
           <li>
             Worked both in store and remotely with point of sale systems,
             inventory systems, and advertising planograms
@@ -99,8 +101,8 @@ export const Resume = () => {
             Webex
           </li>
         </ul>
-        <h4>Target: Retail Store</h4>
-        <ul>
+        <h4>Target: Retail Store 2000-2009</h4>
+        <ul className="experience-list">
           <li>Used a point-of-sale system to ring out customers’ items</li>
           <li>
             Comfortable with an inventory system to check how many of an item
@@ -112,6 +114,17 @@ export const Resume = () => {
           </li>
           <li>Assisted in money handling and cash office duties</li>
         </ul>
+      </section>
+      <section className="education">
+        <h2>Education</h2>
+        <div className="education-details">
+          <h4>Nashville Software School</h4>
+          <div>Completed full time 6 month bootcamp</div>
+          <h4>University of Phoenix</h4>
+          <div>Masters in Business Administration</div>
+          <h4>Northern Illinois University</h4>
+          <div>Bachelor of Arts</div>
+        </div>
       </section>
     </>
   )

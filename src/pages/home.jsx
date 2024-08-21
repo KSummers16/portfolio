@@ -15,9 +15,9 @@ export const Home = () => {
       <section className="info">
         <img
           className="profilepic"
-          src="https://res.cloudinary.com/yarn-stash/image/upload/v1720720789/IMG_2464_uelzfw.jpg"
+          src="/images/IMG_2272.JPG"
           alt="kimprofile"
-          style={{ width: "35%", height: "auto" }}
+          style={{ width: "40%", height: "auto" }}
         />
         <div className="words">
           <h3>My Professional Introduction</h3>
@@ -51,7 +51,12 @@ export const Home = () => {
           <Link to="projects">
             <button>Projects</button>
           </Link>
-          <button>Resume</button>
+          <Link to="resume">
+            <button>Resume</button>
+          </Link>
+          <Link to="www.linkedin.com/in/kim-summerscc">
+            <button>Linked In</button>
+          </Link>
         </div>
       </section>
     </>
