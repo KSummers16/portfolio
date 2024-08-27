@@ -1,9 +1,13 @@
 import "./resume.css"
+import { Link } from "react-router-dom"
 
 export const Resume = () => {
   return (
     <>
       <h1>Resume</h1>
+      <Link to="/">
+        <button>Home</button>
+      </Link>
       <section className="skills">
         <div>
           <ul>

@@ -5,6 +5,9 @@ export const Projects = () => {
   return (
     <>
       <h1 className="title">Projects</h1>
+      <Link to="/">
+        <button>Home</button>
+      </Link>
       <section>
         <h3 className="project-title">Hook'd</h3>
         <div className="project-info">
@@ -47,14 +50,13 @@ export const Projects = () => {
               <Link to="https://github.com/KSummers16/hookd-server">
                 Server{" "}
               </Link>
+              ,
               <Link to="https://github.com/KSummers16/hookd-client">
                 Client
               </Link>
             </p>
             <p>
-              <Link to="https://monkfish-app-pi2ii.ondigitalocean.app/">
-                Live Website
-              </Link>
+              <Link to="https://www.hookdbykims.com">Live Website</Link>
             </p>
           </div>
         </div>
